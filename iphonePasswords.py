@@ -7,5 +7,6 @@ random.shuffle(numlist)
 Pass = print('\n'.join(list(map(str,numlist))),file=f)
 for numlist in range(Max):
     print(Pass)
-print("The ammount of passwords is :" + len(Pass))
 f.close()
+
+
