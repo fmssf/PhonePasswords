@@ -1,6 +1,6 @@
-import random,time
-
-f = open("/Users/willsegale/Desktop/iphonePasswords.txt","a")
+import random,time,os.path
+homedir = os.path.expanduser("~/Desktop/PhonePasswords.txt")
+f = open(homedir,"a")
 Max = 999999
 numlist = list(range(000000,Max))
 random.shuffle(numlist)
